@@ -2,7 +2,7 @@ const { SlashCommandBuilder, AttachmentBuilder  } = require('discord.js');
 
 module.exports = {
 	data: new SlashCommandBuilder()
-		.setName('Ping')
+		.setName('ping')
 		.setDescription('return pong')
 
 		.addStringOption(question =>
